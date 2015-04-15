@@ -1,0 +1,67 @@
+@font-face {
+  font-family: gunplay;
+  src: url("../font/gunplay_3d.ttf");
+}
+
+.fullWidth {
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: initial;
+}
+
+.header {
+  height: 100%;
+  background-image: url("../img/banner.jpg");
+  background-position: 50% 80%;
+  position: fixed;
+  z-index: -1;
+  margin-top: -25%;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 100%;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.content {
+  background-color: wheat;
+  margin-top: 25%;
+}
+
+.avatar {
+  border: solid wheat 0.5em;
+  border-radius: 50%;
+  margin-top: -45%;
+}
+
+.text {
+  font-family: gunplay;
+  font-size: 5em;
+}
