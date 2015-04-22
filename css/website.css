@@ -5,7 +5,7 @@
 
 body {
   color: white;
-  background-color: black;
+  background-color: #0D1114;
 }
 
 .fullWidth {
@@ -53,6 +53,29 @@ body {
 
 .description {
   margin-top: 4%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.session_title {
+  font-family: gunplay;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.project {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cool_session {
+  background-image: url("../img/matrix2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.cool_stuff {
+  margin-left: 10%;
+  margin-right: 10%;
 }
