@@ -86,7 +86,6 @@ body {
 }
 
 .icons {
-  margin-top: 3%;
   text-align: center;
 }
 
@@ -94,6 +93,7 @@ body {
   border-radius: 10%;
   margin-right: 2%;
   margin-left: 2%;
+  margin-top: 5%;
 }
 
 .icon:hover {
