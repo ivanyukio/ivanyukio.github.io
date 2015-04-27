@@ -58,6 +58,14 @@ body {
   text-align: center;
 }
 
+.arrow {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 3%;
+  margin-top: 9%;
+}
+
 .session_title {
   font-family: gunplay;
   font-size: 3.5em;
