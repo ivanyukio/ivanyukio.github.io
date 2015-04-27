@@ -55,18 +55,21 @@ body {
   margin-top: 4%;
   margin-right: 10%;
   margin-left: 10%;
+  text-align: center;
 }
 
 .session_title {
   font-family: gunplay;
   font-size: 2.5em;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 6.5%;
 }
 
-.project {
+.project_description {
   margin-left: 10%;
   margin-right: 10%;
+  text-indent: 5%;
+  text-align:justify;
 }
 
 .cool_session {
@@ -98,4 +101,19 @@ body {
 
 .icon:hover {
   border-radius: 50%;
+}
+
+h3 {
+  color: #D6D6D6;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.project {
+  padding: 3.5% 0px 6.5% 0px;
+}
+
+.thumbnails {
+  margin-right: 10%;
+  margin-left: 10%;
 }
