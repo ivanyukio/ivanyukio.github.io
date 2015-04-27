@@ -60,7 +60,7 @@ body {
 
 .session_title {
   font-family: gunplay;
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-align: center;
   margin-top: 6.5%;
 }
@@ -76,11 +76,6 @@ body {
   background-image: url("../img/matrix2.jpg");
   background-attachment: fixed;
   background-size: cover;
-}
-
-.cool_stuff {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .email {
@@ -110,10 +105,44 @@ h3 {
 }
 
 .project {
-  padding: 3.5% 0px 6.5% 0px;
+  margin-top: 3.5%;
+  margin-bottom: 6.5%;
 }
 
 .thumbnails {
   margin-right: 10%;
   margin-left: 10%;
+}
+
+.preview {
+ margin-right: auto;
+ margin-left: auto;
+ display: block;
+ max-width: 50%;
+}
+.preview2 {
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 3%;
+ display: block;
+ max-width: 70%;
+}
+
+.spacer {
+  padding-top: 0.5%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  color: #333333;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #D3D3D3;
 }
